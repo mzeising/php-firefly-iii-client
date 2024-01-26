@@ -1,0 +1,7 @@
+services:
+  php-composer-xdebug:
+    build:
+      context: ./php-composer-xdebug
+    tty: true
+    volumes:
+      - ../..:/opt/project
